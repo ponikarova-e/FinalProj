@@ -6,7 +6,7 @@ from config import API_URL, API_KEY
 headers = {
     "X-API-KEY": API_KEY,
     "Content-Type": "application/json"
-}
+   }
 
 
 class FilmApi:

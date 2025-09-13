@@ -61,7 +61,7 @@ def test_quick_search(browser):
                      "'Случайный фильм!'"):
         WebDriverWait(browser, 30).until(EC.title_is("Случайный фильм!"))
 
-    with allure.step("Проверяем URL и заголовок страницы"):
+    with allure.step("Проверяем URL  и заголовок страницы"):
         assert "chance" in browser.current_url
         assert "Случайный фильм!" in browser.title
 
