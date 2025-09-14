@@ -5,7 +5,7 @@ from api.FilmApi import FilmApi
 @pytest.mark.api
 def test_get_movie_by_id():
     movie_id = 2213
-    response = FilmApi.get_movie_by_id (movie_id)
+    response = FilmApi.get_movie_by_id(movie_id)
     assert response.status_code == 200
     data = response.json()
     assert data.get("kinopoiskId") == movie_id
