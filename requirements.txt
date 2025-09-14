@@ -1,0 +1,6 @@
+pytest~=8.4.0
+selenium~=4.34.2
+webdriver-manager
+requests~=2.32.4
+allure-pytest
+allure-python-commons~=2.15.0
